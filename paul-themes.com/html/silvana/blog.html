@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | Silvana</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/green.css" rel="alternate stylesheet" title="green">
+  <link href="css/red.css" rel="alternate stylesheet" title="red">
+  <link href="css/blue.css" rel="alternate stylesheet" title="blue">
+  <style>
+    .page-hero{min-height:330px;padding:150px 20px 70px;text-align:center;color:#fff;background:linear-gradient(130deg,#211b1b,#59432e 55%,#211b1b)}
+    .page-hero h1{color:#fff;margin:0 0 12px}.page-hero p{color:#ddd}
+    .page-content{max-width:1050px;margin:0 auto;padding:60px 24px 100px}
+    .blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+    .blog-card{border:1px solid #eee;background:#fff}.blog-card img{width:100%;height:220px;object-fit:cover}.blog-card-copy{padding:22px}.blog-card h2{font-size:24px;margin:6px 0 12px}.blog-card a,.back-link{color:#b38c44}
+    .article{max-width:780px;margin:auto}.article img{width:100%;max-height:480px;object-fit:cover;margin:20px 0}.article p{line-height:1.8;margin:20px 0}
+    .site-nav{position:absolute;top:0;left:0;width:100%;z-index:3;background:rgba(15,15,15,.35)}.site-nav .container{display:flex;align-items:center;justify-content:space-between;min-height:90px}.site-nav a{color:#fff}.site-nav .brand img{width:85px}.site-nav ul{display:flex;gap:28px;list-style:none;margin:0}.site-nav li{position:relative}.site-nav li ul{display:none;position:absolute;top:100%;right:0;min-width:180px;padding:10px;background:#171717;gap:0;flex-direction:column}.site-nav li:hover ul{display:flex}.site-nav li ul a{display:block;padding:10px}.site-nav a:hover{color:#d4b068}
+    @media(max-width:767px){.site-nav .container{display:block;padding:10px 20px}.site-nav ul{gap:12px;flex-wrap:wrap;padding:8px 0}.page-hero{padding-top:190px}}
+  </style>
+</head>
+<body>
+<header class="site-nav"><div class="container"><a class="brand" href="index.html"><img src="img/brand-white.png" alt="Silvana"></a><ul>
+<li><a href="index.html">Home</a><ul><li><a href="index.html">Home Default</a></li><li><a href="index-video.html">Home Video</a></li></ul></li>
+<li><a href="index.html#about">About</a></li><li><a href="index.html#features">Features</a></li><li><a href="index.html#portfolio">Portfolio</a></li>
+<li><a href="blog.html">Blog</a><ul><li><a href="blog.html">Blog list</a></li><li><a href="single-post.html">Single Post</a></li><li><a href="single-post-gallery.html">Single Post Gallery</a></li><li><a href="single-post-video.html">Single Post Video</a></li></ul></li>
+<li><a href="index.html#contacts">Contacts</a></li></ul></div></header>
+<section class="page-hero"><h1>Our Blog</h1><p>Ideas, inspiration, and studio notes</p></section>
+<main class="page-content"><div class="blog-grid">
+<article class="blog-card"><img src="img/portfolio/1-thumb.jpg" alt="Creative workspace"><div class="blog-card-copy"><small>Creative · 14 October 2026</small><h2><a href="single-post.html">Finding a clear direction for your brand</a></h2><p>A strong visual identity starts with a simple idea and grows through thoughtful design.</p><a href="single-post.html">Read article →</a></div></article>
+<article class="blog-card"><img src="img/portfolio/2-thumb.jpg" alt="Design project"><div class="blog-card-copy"><small>Design · 8 October 2026</small><h2><a href="single-post-gallery.html">A closer look at the creative process</a></h2><p>Explore the details, references, and visual choices behind a finished project.</p><a href="single-post-gallery.html">View gallery →</a></div></article>
+<article class="blog-card"><img src="img/portfolio/3-thumb.jpg" alt="Studio work"><div class="blog-card-copy"><small>Studio · 1 October 2026</small><h2><a href="single-post-video.html">Ideas in motion</a></h2><p>A short studio feature about turning early concepts into memorable experiences.</p><a href="single-post-video.html">Watch feature →</a></div></article>
+</div></main>
+<footer style="padding:28px;text-align:center;background:#1f1f1f;color:#aaa">© Silvana · <a class="back-link" href="index.html">Back to home</a></footer>
+</body>
+</html>
